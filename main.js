@@ -111,7 +111,7 @@ myDeck.deal();
 
 // now with a Person.....
 
-var me = new Person();
+var me = new Person('Jake');
 //console.log('my deck: ',me.deck)
 me.deck.shuffle();
 me.takeCard();
