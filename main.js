@@ -97,12 +97,14 @@ Person.prototype.discardCard = function(idx){
       this.hand.pop()
       }else{
          console.log('no more cards!');
+         return false;
       }
    }
 /* ******* end Person class ******** */
 
 
 // lets do this...
+
 var myDeck = new Deck();
 //console.log(myDeck.deck);
 myDeck.shuffle();
